@@ -1,5 +1,8 @@
 # Exercise-Bike_Game-integration
 
+Turn an Exercise Bike into a Game controller to exercise while you game!
+
+
 - Uses a regular Arduino UNO.
 - The Cadence sensor in the Exercise bike is directly connected to the Arduino's input pin and GND.
 - The Arduino I use has a CH340 chip, so Flashing Unojoy was'nt possible so Instead I just wrote a Python script to convert Serial output from the Arduino into Keyboard inputs.
