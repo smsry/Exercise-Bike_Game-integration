@@ -18,8 +18,6 @@ while(True):
         elif(integ>=4 and integ<=8):
             keyboard.release('ctrl')
             keyboard.release('shift')
-            #time.sleep(0.250)
-            #keyboard.release('ctrl')
         else:
             keyboard.release('ctrl')
             keyboard.press('shift')
